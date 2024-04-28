@@ -11,9 +11,10 @@ Escort is a python-coded system that balanced speed and accuracy in tracking mul
 -------------------------------------------
 ## Preparation in prior to tracking
 1. Generate printable tags. Run print_tag.py in Escort/Estag/generate/
-2. The size of tags can be ajusted as users' wish by tuning parameters in print_tag.py
-3. Optimize the tracking parameters using video or frame: block size, filter threshold and tag size. Run optimazation.py in Escort/Estag/
-4. Parameter searching can be customerized by tuning range.
+2. A list of printable EStags on A4 paper is uploaded as a pdf file with tags sized at 2.8 * 2.8 mm. These can be directly used to identify bumblebees 
+3. The size of tags can be ajusted as users' wish by tuning parameters in print_tag.py
+4. Optimize the tracking parameters using video or frame: block size, filter threshold and tag size. Run optimazation.py in Escort/Estag/
+5. Parameter searching can be customerized by tuning range.
 -------------------------------------------
 ## Tracking by EStag alone
 1. Copy the optimized parameter to config.yaml in Escort/Estag/
